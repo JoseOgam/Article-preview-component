@@ -53,10 +53,15 @@ article {
   display: flex;
   flex-direction: column;
   padding: 50px;
+  box-sizing: border-box;
 }
 .img {
   flex-basis: 50%;
 }
 img {
   width: 50%;
+}
+
+p {
+  font-size: 0.9rem;
 }
