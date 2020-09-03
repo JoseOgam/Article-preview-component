@@ -22,12 +22,13 @@ main {
 
 .card {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   text-align: center;
   font-size: 11px;
   border-radius: 10px;
   box-sizing: border-box;
   background: white;
+  justify-items: left;
 }
 
 h3 {
@@ -45,9 +46,10 @@ h3 {
 
 article {
   display: flex;
-  flex-direction: row;
+  flex-direction: row-reverse;
   align-items: center;
 }
+
 .content {
   flex-basis: 50%;
   display: flex;
